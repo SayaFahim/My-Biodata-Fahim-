@@ -1,0 +1,38 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Racoons.jpeg);
+    font-family: Arial, sans-serif;
+    background-color: rgb(185, 103, 103);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-image: url('bg.gif');
+  background-size: cover;
+  text-align: center;
+  padding: 90px 0;
+  color: white;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.topnav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.topnav a:hover, .topnav a.active {
+  background-color: #ddd;
+  color: black;
+}
+</style>

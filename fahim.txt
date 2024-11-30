@@ -1,0 +1,119 @@
+<html>
+
+<head>
+     <title>My Biodata</title>
+<style>
+#myHeader 
+{
+  background-color: purple;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+* {box-sizing: border-box}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+.tablink {
+  background-color: limegreen;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red; height:500%;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+</style>
+</head>
+<body style="background-color:purple;">
+<h1 id="myheader" >MY BIODATA &#128512;</h1>
+
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+<div id="Home" class="tabcontent">
+  <h1>About Me</h1>
+  <center><img src="momo.jpg" alt="momo" width="300px" height="300px"></center>
+  
+  <marquee><h1 style="color:green;">&#128661 &#128659 &#128658 &#128656 &#128666 &#128667 &#128665</h1></marquee>
+
+  <center><br><p style="border:10px solid black; width:20%;">It's ME</p></br>
+  <center><p style="background-color:black;">-My Name-</p>
+          <p>MUHAMMAD FAHIM BIN JOHARI<p>
+
+          <p style="background-color:black;">-Age-</p>
+          <p>20</p></center>
+
+          <p style="background-color:black;">Birth Date</p>
+          <p>15 March 2004</p>
+         
+          <p style="background-color:black;">live in</p>
+          <p>Muar,Johor</p>
+
+          <p style="background-color:black;">Phone Number</p>
+          <p>010 956 4221</p></border>
+
+          <p style="background-color:black;">Email Addreas>
+          <p>gwg2776@gmail.com</p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</html>

@@ -1,0 +1,169 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Racoons.jpeg);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-image: url('bg.gif');
+  background-size: cover;
+  text-align: center;
+  padding: 90px 0;
+  color: white;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.topnav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.topnav a:hover, .topnav a.active {
+  background-color: #ddd;
+  color: black;
+}
+
+.container {
+    background-image:url("wall.jpeg");
+    background-size: auto;
+    background-repeat: repeat;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 130px;
+    padding: 20px;
+    text-align: center;
+}
+.container1 {
+  background-image: url("50 Minimalist Desktop Wallpapers and Backgrounds (2024 Edition).jpeg");
+  background-size: 1200px 540px;
+  background-repeat: no-repeat;
+  border-radius: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 70px;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 245px;
+    height: auto;
+    border-radius: 8px;
+}
+
+aside {
+    background-color: #e9cda2;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+aside p {
+    margin: 5px 0;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+(min-width: 600px) {
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    aside {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .container {
+        flex: 2;
+    }
+}
+
+table, th, td {
+    border: 5px solid white;
+    border-collapse: collapse;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 31%;
+    height: 300px; 
+    background: #ccc;
+    padding: 60px;
+    background-image: url(mark.jpg);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+}
+
+.food-item, .drink-item {
+  background-size: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.food-item img, .drink-item img {
+    width: 100%;
+    max-width: 245px;
+    height: auto;
+    border-radius: 
+}
+
+h1{
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 7%;
+}
+</style>

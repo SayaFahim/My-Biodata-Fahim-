@@ -1,0 +1,73 @@
+<style>
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+body {
+    background-image: url(Racoons.jpeg);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: url('bg.gif');
+    background-size: cover;
+    text-align: center;
+    padding: 90px 0;
+    color: white;
+  }
+  
+  .topnav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .topnav a:hover, .topnav a.active {
+    background-color: #ddd;
+    color: black;
+  }
+* {
+  box-sizing: border-box;
+}
+
+.row{
+  display: flex;
+  float:left;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  float:left;
+}
+.container {
+    height: 1500px;
+    width: autp;
+    margin: 80px ;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container {
+    background-color: rgb(51, 47, 47);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;  
+}
+</style>
